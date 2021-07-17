@@ -206,7 +206,7 @@ export default class Carousel extends React.PureComponent {
         if (this.props.shouldOptimizeUpdates === false) {
             return true;
         } else {
-            return super.shouldComponentUpdate (nextProps, nextState)
+            return super.shouldComponentUpdate(nextProps, nextState);
         }
     }
 
